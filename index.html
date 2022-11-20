@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Task Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.sstatic.net/Shared/stacks.css?v=5ad0f45f4799"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=262abaa77efd"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Task Info Section -->
+    <section id="first">
+      <h3 id ="h3">Add Task</h3>
+      <div class="container">
+        <h3 id="info">Task Info</h3>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="second">
+      <div id="forms">
+        <div class="container1">
+          <div class="box1">
+            <label id="info1">Title <span id="asterik">*</span></label>
+            <input type="text" id="name" placeholder="Enter a task title" />
+          </div>
+          <div class="box2">
+            <label id="info1">Task Category</label>
+            <select id="type" name="project">
+              <option selected value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+            </select>
+          </div>
+          <div class="box10">
+            <button id="type6">Add</button>
+          </div>
+          <div class="box3">
+            <label id="info1">Project</label>
+            <select id="type1" name="project">
+              <option selected value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="container2">
+          <div class="box4">
+            <label id="info1">Start Date <span id="asterik">*</span></label>
+            <input placeholder="05-11-2022" type="text" id="name1" />
+          </div>
+
+          <div class="box5">
+            <label id="info1">Due Date <span id="asterik">*</span></label>
+            <input placeholder="05-11-2022" type="text" id="name1" />
+          </div>
+          <div class="box6">
+            <input id="check" type="checkbox" />
+            <label id="info1">Without Due Date</label>
+          </div>
+        </div>
+
+        <div class="container3">
+          <div class="box8">
+            <label id="info1">Assigned To</label>
+            <select id="type4" name="project">
+              <option selected value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+            </select>
+          </div>
+          <div class="box9">
+            <button id="type5">
+              <img
+                src="https://www.apstia.com/wp-content/uploads/apstia-light-h-1.png"
+                alt=""
+              />
+            </button>
+          </div>
+          <div class="box9">
+            <button id="type7">Add</button>
+          </div>
+        </div>
+
+        <div class="container4">
+          <form
+            id="post-form"
+            action=""
+            class="js-add-answer-component post-form"
+          >
+            <h3 id="info1">Description</h3>
+           
+                <!-- <div class="wmd-container mb8"> -->
+                  <div id="wmd-button-bar" class="wmd-button-bar btr-sm">
+                    <ul id="wmd-button-row" class="wmd-button-row">
+                      <span id="no">Normal</span>
+                      <i class="fa fa-sort" id="sort"></i>
+                      <li
+                        class="wmd-button"
+                        id="wmd-bold-button"
+                        title="Strong <strong> Ctrl+B"
+                      >
+                        <span style="background-position: 0px 0px"></span>
+                      </li>
+                      <li
+                        class="wmd-button"
+                        id="wmd-italic-button"
+                        title="Emphasis <em> Ctrl+I"
+                      >
+                        <span style="background-position: -20px 0px"></span>
+                      </li>
+                      <i class="fa fa-underline" id="under"></i>
+                      <li class="wmd-spacer wmd-spacer1" id="wmd-spacer1"></li>
+                      <li
+                        class="wmd-button"
+                        id="wmd-link-button"
+                        title="Hyperlink <a> Ctrl+L"
+                      >
+                        <span style="background-position: -40px 0px"></span>
+                      </li>
+                      <li
+                        class="wmd-button"
+                        id="wmd-quote-button"
+                        title="Blockquote <blockquote> Ctrl+Q"
+                      >
+                        <span style="background-position: -60px 0px"></span>
+                      </li>
+                      <li
+                        class="wmd-button"
+                        id="wmd-code-button"
+                        title="Code Sample <pre><code> Ctrl+K"
+                      >
+                        <span style="background-position: -80px 0px"></span>
+                      </li>
+                      <li
+                        class="wmd-button"
+                        id="wmd-image-button"
+                        title="Image <img> Ctrl+G"
+                      >
+                        <span style="background-position: -100px 0px"></span>
+                      </li>
+                      <li
+                        class="wmd-button wmd-snippet-button"
+                        id="wmd-snippet-button"
+                        title="JavaScript/HTML/CSS snippet Ctrl-M"
+                      >
+                      </li>
+                    </ul>
+                  </div>
+            <input type="text" id="name3" />
+
+          </form>
+        </div>
+    </section>
+   
+
+    <!-- Section 3 -->
+    
+    <section id="second">
+      <div id="forms">
+        <details>
+          <summary> <i id = "details" class="fa fa-angle-up" style="font-size:36px"></i> 
+            <div class = "info3">
+              <h2  style = "font-size: 30px;"> Other Details</h2>
+            </div>
+          </summary>
+        <div class="container1">
+          <div class="box11">
+            <label id="info1">Label</label>
+            <select id="type8" name="project">
+              <option selected value="">Nothing selected</option>
+              <option value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+            </select>
+          </div>
+          <div class="box12">
+            <button id="type9">Add</button>
+          </div>
+          
+          <div class="box13">
+            <label id="info1">Milestones</label>
+            <select id="name4" name="project">
+              <option selected value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+            </select>
+          </div>
+          <div class="box14">
+            <label id="info1">Status</label>
+            <select id="name5" name="project">
+              <option selected value="">Incomplete</option>
+              <option value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="container2">
+          <div class="box15">
+            <label id="info1">Priority</label>
+            <select id="name6" name="project">
+              <option selected value="">Medium</option>
+              <option value="">--</option>
+              <option value="">--</option>
+              <option value="">--</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="container3">
+          <div class="box16">
+            <input id="check" type="checkbox" />
+            <label id="info1">Make Private ❓</span></label>
+          </div>
+          <div class="box17">
+            <input id="check1" type="checkbox" />
+            <label id="info1">Billable ❓</span></label>
+          </div>
+          <div class="box18">
+            <!-- <input id="yourCheckbox" type="checkbox" />
+          
+          <input id="yourDateField" type="time" /> -->
+          <input id="yourCheckbox" type="checkbox" />
+          <label id="info1">Time Estimate</span></label>
+
+        </div>
+        <div class = "box25">
+          <input id="yourDateField" type="time" id="timepicker" />
+          </div>
+          
+        </div>
+
+        <div class="container4">
+          <div class="box19">
+            <input id = "chkddl"class="check3" type="checkbox" />
+            <label id="asd">Repeat</span></label>
+            </div>
+            <div class="box26">
+            <select id ="DDL" class= "name11">
+               <option selected value="">Every Day</option>
+              <option value="">Every Week</option>
+              <option value="">Every Month</option>
+              <option value="">Every Year</option>
+              <option value="">Custom Day</option>
+            </select>
+          </div> 
+          <div class="box20">
+            <input id="check4" type="checkbox" />
+            <label id="info1">Task is dependent on another task</span></label>
+          </div> 
+          </div>
+
+          <div class="container5">
+            <div class="box21">
+              <label for="">Add Files</label>
+              <input type="file" id = "name7">
+            </div>
+          </div>
+          <div class="container6">
+            <div class="box22">
+              <button  id = "name8"><i class="fa fa-check" style="font-size:14px"></i> <span class = 'button-text'> Save</span></button>
+            </div>
+            <div class="box23">
+              <button  id = "name9"><i class="fa fa-check" style="font-size:14px"></i>Save & Add More</button>
+            </div>
+            <div class="box24">
+              <button  id = "name10">Cancel</button>
+            </div>
+          </div>
+          </form>
+        </details>
+        </div>
+    </section>
+  
+
+  </body>
+
+
+   
+    <script src="script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+   <script>
+    flatpickr("#name1", {});
+ $('.datepicker').datepicker({ min: new Date(2015,3,20),
+    max: new Date(2015,7,14)
+  })
+   </script>
+   
+    
+ 
+</html>
