@@ -216,7 +216,7 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 51%;
+    left: 50%;
 
 }
 .box15
@@ -248,7 +248,7 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 664px;
+    left: 604px;
 }
 .box21
 {
@@ -333,7 +333,7 @@ display: inline-block!important;
 }
 #name4
 {
-    width: 320%!important;
+    width: 290%!important;
     padding: 11px!important;
     margin: 8px 0!important;
     display: inline-block!important;
@@ -357,7 +357,7 @@ display: inline-block!important;
 }
 #name7
 {
-    width: 465%!important;
+    width: 420%!important;
     padding: 11px!important;
     margin: 8px 0!important;
     display: inline-block!important;
