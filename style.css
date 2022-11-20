@@ -161,7 +161,7 @@ div.closed
 {
 display: inline-block!important;
     position: relative!important;
-    left: 50%!important;
+    left: 44%!important;
 }
 
 .box5
@@ -187,13 +187,13 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 704px;
+    left: 696px;
 }
 .box10
 {
     display: inline-block;
     position: relative;
-    left: 516px;
+    left: 483px;
 }
 .box11
 {
@@ -324,7 +324,7 @@ display: inline-block!important;
 
 #name3
 {
-    width: 100%!important;
+    width: 91%!important;
     padding: 24px!important;
     margin-bottom: 20px !important;
     display: inline-block!important;
@@ -502,7 +502,7 @@ display: inline-block!important;
 #type6
 {
         width: 63px;
-        padding: 11px;
+        padding: 10px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -513,7 +513,7 @@ display: inline-block!important;
 #type7
 {
         width: 63px;
-        padding: 12px;
+        padding: 11.6px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -687,4 +687,10 @@ font-size: 19px;
     position: relative;
     left: 50px;
     top: 34px;
+}
+
+.wmd-button-bar
+{
+    
+    width: 91%;
 }
