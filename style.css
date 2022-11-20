@@ -692,5 +692,5 @@ font-size: 19px;
 .wmd-button-bar
 {
     
-    width: 91%;
+    width: 91% !important;
 }
