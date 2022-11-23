@@ -161,20 +161,38 @@ div.closed
 {
 display: inline-block!important;
     position: relative!important;
-    left: 44%!important;
+    left: 50%!important;
 }
-
+.box4
+{
+    display: inline-block;
+    width: 22%;
+}
 .box5
 {
     position: relative!important;
-    left: 17%!important;
+    /* left: 13.5%!important; */
+    width: 56%;
     display: inline-block!important;
+}
+.checkbox-card
+{
+    position: relative!important;
+    left: 13.5%!important;
+    width: 43%;
+    display: inline-block!important;
+}
+
+#yourDateField
+{
+    width: 100%;
 }
 .box6
 {
 display: inline-block!important;
     position: relative!important;
-    left: 22%!important;
+    left: 2%!important;
+   
 }
 
 
@@ -187,13 +205,13 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 696px;
+    left: 704px;
 }
 .box10
 {
     display: inline-block;
     position: relative;
-    left: 483px;
+    left: 516px;
 }
 .box11
 {
@@ -216,7 +234,7 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 50%;
+    left: 51%;
 
 }
 .box15
@@ -248,7 +266,7 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 604px;
+    left: 663px;
 }
 .box21
 {
@@ -279,12 +297,22 @@ display: inline-block!important;
     display: inline-block;
     position: relative;
     left: 41%;
+    width: 5%;
 }
 .box26
 {
     display: inline-block;
     position: relative;
     left: 10px;
+}
+
+.box27
+{
+    display: inline-block;
+    position: relative;
+    left: 683px;
+    
+    width: 10%;
 }
 #asterik
 {
@@ -302,9 +330,18 @@ display: inline-block!important;
 
    
 }
+#name0
+{
+    width: 100%;
+    padding: 11px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    
+}
 #name1
 {
-    width: 121%;
+    width: 100%;
     padding: 11px;
     margin: 8px 0;
     display: inline-block;
@@ -324,7 +361,7 @@ display: inline-block!important;
 
 #name3
 {
-    width: 91%!important;
+    width: 100%!important;
     padding: 24px!important;
     margin-bottom: 20px !important;
     display: inline-block!important;
@@ -333,7 +370,7 @@ display: inline-block!important;
 }
 #name4
 {
-    width: 290%!important;
+    width: 320%!important;
     padding: 11px!important;
     margin: 8px 0!important;
     display: inline-block!important;
@@ -357,7 +394,7 @@ display: inline-block!important;
 }
 #name7
 {
-    width: 420%!important;
+    width: 465%!important;
     padding: 11px!important;
     margin: 8px 0!important;
     display: inline-block!important;
@@ -438,6 +475,15 @@ display: inline-block!important;
     display: inline-block!important;
     border: 1px solid #ccc!important;
 }
+
+#name12
+{
+    width: 100%!important;
+    padding: 11px!important;
+    margin: 8px 0!important;
+    display: inline-block!important;
+    border: 1px solid #ccc!important;
+}
 #type
 {
     width: 239%;
@@ -502,7 +548,7 @@ display: inline-block!important;
 #type6
 {
         width: 63px;
-        padding: 10px;
+        padding: 11px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -513,7 +559,7 @@ display: inline-block!important;
 #type7
 {
         width: 63px;
-        padding: 11.6px;
+        padding: 12px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -687,10 +733,4 @@ font-size: 19px;
     position: relative;
     left: 50px;
     top: 34px;
-}
-
-.wmd-button-bar
-{
-    
-    width: 91% !important;
 }
