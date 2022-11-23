@@ -1,46 +1,46 @@
 
   
-// For Date
+// // For Date
 
 
   
-var yourCheckbox = document.querySelector('#yourCheckbox');
-var yourDateField = document.querySelector('#yourDateField');
+// var yourCheckbox = document.querySelector('#yourCheckbox');
+// var yourDateField = document.querySelector('#yourDateField');
 
-function updateYourDateField() {
+// function updateYourDateField() {
 
-	if(yourCheckbox.checked) {
-  	yourDateField.disabled = false;
-  }
-  else {
-  	yourDateField.disabled = true;
-  }
-}
-updateYourDateField();
+// 	if(yourCheckbox.checked) {
+//   	yourDateField.disabled = false;
+//   }
+//   else {
+//   	yourDateField.disabled = true;
+//   }
+// }
+// updateYourDateField();
 
-yourCheckbox.addEventListener('change', function() {
+// yourCheckbox.addEventListener('change', function() {
 
-	updateYourDateField();
-})
+// 	updateYourDateField();
+// })
 
-var Checkbox = document.querySelector('#chkddl');
-var yourTimeField= document.querySelector('#DDL');
+// var Checkbox = document.querySelector('#chkddl');
+// var yourTimeField= document.querySelector('#DDL');
 
-function updateYourDDL() {
+// function updateYourDDL() {
 
-	if(Checkbox.checked) {
-  	yourTimeField.disabled = false;
-  }
-  else {
-  	yourTimeField.disabled = true;
-  }
-}
-updateYourDDL();
+// 	if(Checkbox.checked) {
+//   	yourTimeField.disabled = false;
+//   }
+//   else {
+//   	yourTimeField.disabled = true;
+//   }
+// }
+// updateYourDDL();
 
-Checkbox.addEventListener('change', function() {
+// Checkbox.addEventListener('change', function() {
 
-	updateYourDDL();
-})
+// 	updateYourDDL();
+// })
 
 
 
