@@ -156,12 +156,14 @@ div.closed
     position: relative!important;
     left: 20%!important;
     display: inline-block!important;
+    width: 22%;
 }
 .box3
 {
 display: inline-block!important;
     position: relative!important;
-    left: 50%!important;
+    left: 33%!important;
+    width: 21% !important;
 }
 .box4
 {
@@ -205,13 +207,13 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 704px;
+    left: 696px;
 }
 .box10
 {
     display: inline-block;
     position: relative;
-    left: 516px;
+    left: 273px;
 }
 .box11
 {
@@ -486,7 +488,7 @@ display: inline-block!important;
 }
 #type
 {
-    width: 239%;
+    width: 100%;
     padding: 10px;
     margin: 8px 0;
     display: inline-block;
@@ -497,7 +499,7 @@ display: inline-block!important;
 }
 #type1
 {
-    width: 300%;
+    width: 100%;
     padding: 10px;
     margin: 8px 0;
     display: inline-block;
@@ -548,7 +550,7 @@ display: inline-block!important;
 #type6
 {
         width: 63px;
-        padding: 11px;
+        padding: 10px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -559,7 +561,7 @@ display: inline-block!important;
 #type7
 {
         width: 63px;
-        padding: 12px;
+        padding: 11.5px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -652,7 +654,10 @@ details summary
     border: 1px solid #ccc;
     display: inline-block;
 }
-
+.wmd-container {
+    width: 88% !important;
+    
+}
 .wmd-button
 {
     max-width: 60px!important;
