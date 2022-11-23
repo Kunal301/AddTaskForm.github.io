@@ -24,6 +24,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
     <!-- Task Info Section -->
@@ -68,17 +69,18 @@
         <div class="container2">
           <div class="box4">
             <label id="info1">Start Date <span id="asterik">*</span></label>
-            <input placeholder="05-11-2022" type="text" id="name1" />
+            <input placeholder="05-11-2022" type="text" id="name0" />
           </div>
-
+          <div class="checkbox-card">
           <div class="box5">
-            <label id="info1">Due Date <span id="asterik">*</span></label>
+            <label for="name1" id = 'info1'>Due Date</label>
             <input placeholder="05-11-2022" type="text" id="name1" />
           </div>
           <div class="box6">
             <input id="check" type="checkbox" />
             <label id="info1">Without Due Date</label>
           </div>
+        </div>
         </div>
 
         <div class="container3">
@@ -112,7 +114,7 @@
           >
             <h3 id="info1">Description</h3>
            
-                <!-- <div class="wmd-container mb8"> -->
+                <div class="wmd-container mb8">
                   <div id="wmd-button-bar" class="wmd-button-bar btr-sm">
                     <ul id="wmd-button-row" class="wmd-button-row">
                       <span id="no">Normal</span>
@@ -183,7 +185,7 @@
         <details>
           <summary> <i id = "details" class="fa fa-angle-up" style="font-size:36px"></i> 
             <div class = "info3">
-              <h2  style = "font-size: 25px;"> Other Details</h2>
+              <h2  style = "font-size: 30px;"> Other Details</h2>
             </div>
           </summary>
         <div class="container1">
@@ -235,22 +237,19 @@
         <div class="container3">
           <div class="box16">
             <input id="check" type="checkbox" />
-            <label id="info1">Make Private ❓</span></label>
+            <label id="info1">Make Private ❓</label>
           </div>
           <div class="box17">
             <input id="check1" type="checkbox" />
-            <label id="info1">Billable ❓</span></label>
+            <label id="info1">Billable ❓</label>
           </div>
           <div class="box18">
-            <!-- <input id="yourCheckbox" type="checkbox" />
-          
-          <input id="yourDateField" type="time" /> -->
           <input id="yourCheckbox" type="checkbox" />
-          <label id="info1">Time Estimate</span></label>
+          <label for = 'yourCheckbox' id="info1">Time Estimate</label>
 
         </div>
         <div class = "box25">
-          <input id="yourDateField" type="time" id="timepicker" />
+          <input id="yourDateField" type="text" placeholder=" 02 : 33" />
           </div>
           
         </div>
@@ -271,8 +270,16 @@
           </div> 
           <div class="box20">
             <input id="check4" type="checkbox" />
-            <label id="info1">Task is dependent on another task</span></label>
+            <label id="info1">Task is dependent on another task</label>
           </div> 
+          <div class="box27">
+            <select id="name12" name="project">
+              <option selected value="">Choose</option>
+              <option value="">68024</option>
+              <option value="">52321</option>
+              <option value="">30124</option>
+            </select>
+          </div>
           </div>
 
           <div class="container5">
@@ -297,8 +304,8 @@
         </div>
     </section>
   
-
-  </body>
+    
+   
 
 
    
@@ -311,7 +318,55 @@
     max: new Date(2015,7,14)
   })
    </script>
-   
-    
- 
+ <script>
+
+$(function(){
+  $('#check').click(function(){
+        if($(this).is(':checked')){
+            $('#name1').hide();
+           
+        } else {
+            $('#name1').show();
+        }
+  });
+});
+
+$('#yourDateField').hide();
+$(function(){
+  $('#yourCheckbox').click(function(){
+        if($(this).is(':checked')){
+            $('#yourDateField').show();
+           
+        } else {
+            $('#yourDateField').hide();
+        }
+  });
+});
+
+$('.box27').hide();
+$(function(){
+  $('#check4').click(function(){
+        if($(this).is(':checked')){
+            $('.box27').show();
+           
+        } else {
+            $('.box27').hide();
+        }
+  });
+});
+
+
+$('.box26').hide();
+$(function(){
+  $('#chkddl').click(function(){
+        if($(this).is(':checked')){
+            $('.box26').show();
+           
+        } else {
+            $('.box26').hide();
+        }
+  });
+});
+</script>
+</body>
 </html>
