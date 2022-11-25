@@ -156,14 +156,12 @@ div.closed
     position: relative!important;
     left: 20%!important;
     display: inline-block!important;
-    width: 22%;
 }
 .box3
 {
 display: inline-block!important;
     position: relative!important;
-    left: 33%!important;
-    width: 21% !important;
+    left: 50%!important;
 }
 .box4
 {
@@ -207,13 +205,13 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 696px;
+    left: 704px;
 }
 .box10
 {
     display: inline-block;
     position: relative;
-    left: 273px;
+    left: 516px;
 }
 .box11
 {
@@ -268,7 +266,7 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 663px;
+    left: 620px;
 }
 .box21
 {
@@ -301,20 +299,439 @@ display: inline-block!important;
     left: 41%;
     width: 5%;
 }
-.box26
-{
-    display: inline-block;
-    position: relative;
-    left: 10px;
+.customdd {
+    position: relative !important;
+    left: 40px;
+    z-index: 1;
 }
+    
+ 
+  .customdd-button
+  {
+    font-size: 15px ;
+    border-radius: 1px;
+    padding: 5px 64px 5px 22px;
+    background-color:  rgba(240, 248, 255, 0.868);
+  }
+
+.customdd .customdd-content {
+    position: absolute !important;
+    top: 100% !important;
+    border: 1px solid lightgray !important;
+    padding: 5px 25px 5px 16px;
+    background-color: rgba(240, 248, 255, 0.868);
+    border-radius: 1px;
+    
+  }
+.content-time
+{
+    width: 100%;
+     margin-left: 7px
+}
+
+#fafa
+{
+    position: absolute;
+    right: 34px;
+}
+ .title
+ {
+    display: flex;
+    align-items: center;
+   
+ }
+ .every
+ {
+    width: 0;
+    height: 0;
+    opacity: 0;
+ }
+ .dd365
+ {
+    width: 57%;
+    padding: 8px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+ }
+ 
+ .custom1
+ {
+    margin-left: 25px;
+ }
+ .content
+ {
+    display: grid;
+    grid-template-columns: 1fr auto;
+ }
+ 
+ .content-box
+ {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    row-gap: 8px;
+    column-gap: 18px;
+    padding: 3px 10px;
+    white-space:nowrap;
+
+ }
+ div
+ 
+.content2
+{
+   
+    border: 1px solid black;
+    padding: 13px 5px 0px 5px;
+gap: 2px;
+display: grid;
+grid-template-columns: repeat(8,1fr)
+
+}
+.content3
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    border: 1px solid black;
+    padding: 13px 5px 0px 5px;
+gap: 2px;
+
+}
+.content4
+{
+    white-space:nowrap;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+margin:0px 5px 5px 5px;
+
+}
+.content5
+{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin:0px 5px 5px 5px;
+
+}
+.content6
+{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin:0px 5px 5px 5px;
+}
+.content7
+{
+    border: 1px solid black;
+    padding: 13px 5px 0px 5px;
+gap: 2px;
+display: grid;
+grid-template-columns: repeat(8,1fr)
+
+}
+.content8
+{
+   
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    /* gap: 2px; */
+    margin:0px 5px 5px 5px;
+}
+.content9
+{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    /* gap: 2px; */
+    margin:0px 5px 5px 5px;
+}
+.content10
+{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    /* gap: 2px; */
+    margin:0px 5px 5px 5px;
+}
+.content11
+{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    /* gap: 2px; */
+    margin:0px 5px 5px 5px;
+}
+.content12
+{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    /* gap: 2px; */
+    margin:0px 5px 5px 5px;
+}
+ .content2 input[type="checkbox"]
+ {
+    width: 0;
+    height: 0;
+    opacity: 0;
+ }
+ .content3 input[type="checkbox"]
+ {
+    width: 0;
+    height: 0;
+    opacity: 0;
+ }
+ .content7 input[type="checkbox"]
+ {
+    width: 0;
+    height: 0;
+    opacity: 0;
+ }
+ 
+ .title label
+ {
+    white-space:nowrap;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+    padding-right: 20px;
+ }
+ .content2 label
+ {
+    white-space:nowrap;
+    border: 1px solid lightgray;
+padding: 0.9rem 1.1rem;
+margin:0.5px;
+font-size: 0.7rem;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+    
+ }
+ .content3 label
+ {
+    white-space:nowrap;
+    border: 1px solid lightgray;
+padding: 0.9rem 1.1rem;
+margin:0.5px;
+font-size: 0.7rem;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+    
+ }
+ .content4 label
+ {
+    white-space:nowrap;  
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+    
+ }
+ .content5 label
+ {
+    white-space:nowrap;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+    
+ }
+ .content6 label
+ {
+    white-space:nowrap;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+    
+ }
+ .content7 label
+ {
+    white-space:nowrap;
+    border: 1px solid lightgray;
+padding: 0.9rem 1.1rem;
+margin:0.5px;
+font-size: 0.7rem;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+ }
+ .content8 label
+ {
+    white-space:nowrap;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+ }
+ .content9 label
+ {
+    white-space:nowrap;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+ }
+ .content10 label
+ {
+    white-space:nowrap;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+ }
+ .content11 label
+ {
+    white-space:nowrap;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+ }
+ .content12 label
+ {
+    white-space:nowrap;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+    border-radius: 2px;
+ }
+
+ .title label:hover
+ {
+   opacity: 0.7;
+   cursor: pointer;
+ }
+ .content2 label:hover
+ {
+   opacity: 0.7;
+   background-color: rgb(23, 90, 199);
+  color: white;
+cursor: pointer;
+
+ }
+ .content3 label:hover
+ {
+   opacity: 0.7;
+   background-color: rgb(23, 90, 199);
+  color: white;
+  cursor: pointer;
+
+ }
+ .content4 label:hover
+ {
+   opacity: 0.7;
+   cursor: pointer;
+ }
+ .content5 label:hover
+ {
+   opacity: 0.7;
+   background-color: rgb(23, 90, 199);
+  color: white;
+  cursor: pointer;
+
+ }
+ .content6 label:hover
+ {
+   opacity: 0.7;
+   cursor: pointer;
+
+ }
+ .content7 label:hover
+ {
+   opacity: 0.7;
+   background-color: rgb(23, 90, 199);
+  color: white;
+cursor: pointer;
+ }
+ .content8 label:hover
+ {
+   opacity: 0.7;
+   cursor: pointer;
+
+ }
+ .content9 label:hover
+ {
+   opacity: 0.7;
+   cursor: pointer;
+
+ }
+ .content10 label:hover
+ {
+   opacity: 0.7;
+   cursor: pointer;
+ }
+ .content11 label:hover
+ {
+   opacity: 0.7;
+   cursor: pointer;
+ }
+ .content12 label:hover
+ {
+   opacity: 0.7;
+   cursor: pointer;
+ }
+ button.customdd-button:hover
+ {
+    cursor: pointer;
+ }
+.calendarclass
+{
+    
+    margin-left: 5px;
+}
+ 
+
+
 
 .box27
 {
     display: inline-block;
     position: relative;
-    left: 683px;
+    left: 650px;
     
-    width: 10%;
+    width: 7%;
+}
+
+/* .box28
+{
+    display: inline-block;
+    position: relative;
+    left: 3%;
+    width: 5%;
+
+} */
+
+.time1
+{
+    width: 100% !important;
 }
 #asterik
 {
@@ -481,14 +898,14 @@ display: inline-block!important;
 #name12
 {
     width: 100%!important;
-    padding: 11px!important;
+    padding: 8px!important;
     margin: 8px 0!important;
     display: inline-block!important;
     border: 1px solid #ccc!important;
 }
 #type
 {
-    width: 100%;
+    width: 239%;
     padding: 10px;
     margin: 8px 0;
     display: inline-block;
@@ -499,7 +916,7 @@ display: inline-block!important;
 }
 #type1
 {
-    width: 100%;
+    width: 300%;
     padding: 10px;
     margin: 8px 0;
     display: inline-block;
@@ -550,7 +967,7 @@ display: inline-block!important;
 #type6
 {
         width: 63px;
-        padding: 10px;
+        padding: 11px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -561,7 +978,7 @@ display: inline-block!important;
 #type7
 {
         width: 63px;
-        padding: 11.5px;
+        padding: 12px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -654,10 +1071,7 @@ details summary
     border: 1px solid #ccc;
     display: inline-block;
 }
-.wmd-container {
-    width: 88% !important;
-    
-}
+
 .wmd-button
 {
     max-width: 60px!important;
@@ -738,4 +1152,10 @@ font-size: 19px;
     position: relative;
     left: 50px;
     top: 34px;
+}
+
+
+.dropdown .hidden 
+{
+display: none;
 }
