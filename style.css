@@ -41,13 +41,13 @@ body
     padding-top: 3.9rem!important;
     padding-left: 17px!important;
     background-color: white!important;
-    /* padding-bottom: 20px; */
-    
-    
-   
-    
-    
+    /* padding-bottom: 20px; */    
 }
+div.wmd-container.mb8
+{
+    width: 90% !important;
+}
+
 .container1
 {
     width: 96%!important;   
@@ -80,7 +80,7 @@ body
 
 .container4
 {
-    width: 96% !important;
+    width: 100  % !important;
    padding-top: 40px !important;
     padding-left: 17px !important;
     background-color: white !important;
@@ -161,7 +161,8 @@ div.closed
 {
 display: inline-block!important;
     position: relative!important;
-    left: 50%!important;
+    left: 43%!important;
+    width:23%;
 }
 .box4
 {
@@ -205,36 +206,38 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 704px;
+    left: 696px;
 }
 .box10
 {
     display: inline-block;
     position: relative;
-    left: 516px;
+    left: 463px;
 }
 .box11
 {
     display: inline-block;
+    width:25%;
 }
 .box12
 {
     display: inline-block;
     position: relative;
-    left: 180px;
+/*     left: 180px; */
 }
 .box13
 {
     display: inline-block;
     position: relative;
-    left: 340px;
-
+    left: 165px;
+    width: 25%;
 }
 .box14
 {
     display: inline-block;
     position: relative;
-    left: 51%;
+    left: 22%;
+    width:25%;
 
 }
 .box15
@@ -266,7 +269,7 @@ display: inline-block!important;
 {
     display: inline-block;
     position: relative;
-    left: 620px;
+    left: 559px;
 }
 .box21
 {
@@ -715,7 +718,7 @@ cursor: pointer;
 {
     display: inline-block;
     position: relative;
-    left: 650px;
+    left: 580px;
     
     width: 7%;
 }
@@ -789,7 +792,7 @@ cursor: pointer;
 }
 #name4
 {
-    width: 320%!important;
+    width: 100%!important;
     padding: 11px!important;
     margin: 8px 0!important;
     display: inline-block!important;
@@ -813,7 +816,7 @@ cursor: pointer;
 }
 #name7
 {
-    width: 465%!important;
+    width: 410%!important;
     padding: 11px!important;
     margin: 8px 0!important;
     display: inline-block!important;
@@ -905,7 +908,7 @@ cursor: pointer;
 }
 #type
 {
-    width: 239%;
+    width: 226%;
     padding: 10px;
     margin: 8px 0;
     display: inline-block;
@@ -925,7 +928,7 @@ cursor: pointer;
 }
 #type2
 {
-    width: 300%;
+    width: 100%;
     padding: 10px;
     margin: 8px 0;
     display: inline-block;
@@ -967,7 +970,7 @@ cursor: pointer;
 #type6
 {
         width: 63px;
-        padding: 11px;
+        padding: 10px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -978,7 +981,7 @@ cursor: pointer;
 #type7
 {
         width: 63px;
-        padding: 12px;
+        padding: 11.5px;
         margin-top: 20px;
         border-radius: 1px;
         display: inline-block;
@@ -990,7 +993,7 @@ cursor: pointer;
 #type8
 
 {
-    width: 200%;
+    width: 100%;
     padding: 10px;
     margin: 8px 0;
     display: inline-block;
@@ -1002,7 +1005,7 @@ cursor: pointer;
 #type9
 {
     width: 63px;
-    padding: 11px;
+    padding: 10px;
     margin-top: 20px;
     border-radius: 1px;
     display: inline-block;
