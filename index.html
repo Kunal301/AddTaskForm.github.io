@@ -259,15 +259,468 @@
             <input id = "chkddl"class="check3" type="checkbox" />
             <label id="info1">Repeat</span></label>
             </div>
-            <div class="box26">
-            <select id ="DDL" class= "name11">
-               <option selected value="">Every Day</option>
-              <option value="">Every Week</option>
-              <option value="">Every Month</option>
-              <option value="">Every Year</option>
-              <option value="">Custom Day</option>
-            </select>
-          </div> 
+            <div class="customdd" id="box26">
+              <button type ="button" class="customdd-button"><span class = 'button-text'> Select</span><i class="fa fa-angle-down" style="position: relative;left: 55px;"></i></button>
+              <div class="customdd-content hidden">
+                <div class="title">
+                  <input type="checkbox" id="dd-every-day" class = "every">
+                  <label for="dd-every-day">Every Day<i class="fa fa-caret-down" id = "fafa" ></i></label>
+                </div>
+                <div class="content" id = 'dd-every-day-content' style="width:70%">
+                  <input type="text"class="content-time" id="dd-every-day1" placeholder="02:41" >
+                </div>
+                
+                <div class="title">
+                  <input type="checkbox" id="dd-every-week" class="every">
+                  <label for="dd-every-week">Every Week<i class="fa fa-caret-down"  id = "fafa" ></i></label>
+                </div>
+
+                <div class="content-box hidden" id = "dd-every-checkbox">
+                  <label for="dd-every-week0" class="every-week">Monday</label>
+                  <input type="checkbox" id='dd-every-week0' >
+                  <label for="dd-every-week1" class="every-week">Tuesday</label>
+                  <input type="checkbox" id='dd-every-week1' >
+                  <label for="dd-every-week2" class="every-week">Wednesday</label>
+                  <input type="checkbox" id='dd-every-week2' >
+                  <label for="dd-every-week3" class="every-week">Thursday</label>
+                  <input type="checkbox" id='dd-every-week3' >
+                  <label for="dd-every-week4" class="every-week">Friday</label>
+                  <input type="checkbox" id='dd-every-week4' >
+                  <label for="dd-every-week5" class="every-week">Saturday</label>
+                  <input type="checkbox" id='dd-every-week5' >
+                  <label for="dd-every-week6" class="every-week">Sunday</label>
+                  <input type="checkbox" id='dd-every-week6' >
+                </div>
+                <div class="content" id = 'dd-every-day-content1'style = "width: 66%;margin-left: 11px;">
+                  <input type="text" class="content-time"id="dd-every-day2" placeholder="02:41" >
+                </div>
+                <div class="title">
+                  <input type="checkbox" id="dd-every-month" class="every">
+                  <label for="dd-every-month">Every Month<i class="fa fa-caret-down"  id = "fafa" ></i></label>
+                </div>
+                <div class="content2 hidden" id = 'dd-every-checkbox1'>
+                  <div>
+                  <label for="dd-every-month1" class="dd-every-year"> 1</label>
+                  <input type="checkbox"  id = "dd-every-month1" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month2" class="dd-every-year"> 2</label>
+                  <input type="checkbox"  id = "dd-every-month2" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month3" class="dd-every-year"> 3</label>
+                  <input type="checkbox" id = "dd-every-month3" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month4"class="dd-every-year"> 4</label>
+                  <input type="checkbox"  id = "dd-every-month4"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month5"class="dd-every-year"> 5</label>
+                  <input type="checkbox" id = "dd-every-month5"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-week5" class="dd-every-year"> 6</label>
+                  <input type="checkbox" id = "dd-every-month6"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month7" class="dd-every-year"> 7</label>
+                  <input type="checkbox" id = "dd-every-month7"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month8"   class="dd-every-year"> 8</label>
+                  <input type="checkbox" id = "dd-every-month8"  class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month9" class="dd-every-year"> 9</label>
+                  <input type="checkbox" id = "dd-every-month9"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month10"class="dd-every-year"> 10</label>
+                  <input type="checkbox" id = "dd-every-month10" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month11"class="dd-every-year"> 11</label>
+                  <input type="checkbox"  id = "dd-every-month11"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month12" class="dd-every-year"> 12</label>
+                  <input type="checkbox" id = "dd-every-month12" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month13" class="dd-every-year"> 13</label>
+                  <input type="checkbox" id = "dd-every-month13"class = "every-year-check" >
+                </div>
+                <div>
+                  <label for= "dd-every-month14"class="dd-every-year"> 14</label>
+                  <input type="checkbox"  id = "dd-every-month14" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month15" class="dd-every-year"> 15</label>
+                  <input type="checkbox" id = "dd-every-month15" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month16" class="dd-every-year"> 16</label>
+                  <input type="checkbox" id = "dd-every-month16"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month17" class="dd-every-year"> 17</label>
+                  <input type="checkbox" id = "dd-every-month17"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month18"class="dd-every-year"> 18</label>
+                  <input type="checkbox" id = "dd-every-month18"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month19" class="dd-every-year"> 19</label>
+                  <input type="checkbox" id = "dd-every-month19"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month20" class="dd-every-year"> 20</label>
+                  <input type="checkbox" id = "dd-every-month20"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month21" class="dd-every-year"> 21</label>
+                  <input type="checkbox" id = "dd-every-month21"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month22" class="dd-every-year"> 22</label>
+                  <input type="checkbox" id = "dd-every-month22" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month23" class="dd-every-year"> 23</label>
+                  <input type="checkbox" id = "dd-every-month23"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month24"class="dd-every-year"> 24</label>
+                  <input type="checkbox" id = "dd-every-month24"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month25" class="dd-every-year"> 25</label>
+                  <input type="checkbox" id = "dd-every-month25"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month26"class="dd-every-year"> 26</label>
+                  <input type="checkbox" id = "dd-every-month26"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month27" class="dd-every-year"> 27</label>
+                  <input type="checkbox" id = "dd-every-month27"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month28" class="dd-every-year"> 28</label>
+                  <input type="checkbox" id = "dd-every-month28"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month29" class="dd-every-year"> 29</label>
+                  <input type="checkbox" id = "dd-every-month29"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month30" class="dd-every-year"> 30</label>
+                  <input type="checkbox"  id = "dd-every-month30"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-month31" class="dd-every-year"> 31</label>
+                  <input type="checkbox" id = "dd-every-month31"class = "every-year-check">
+                </div>
+                </div>
+                <div class="content" id = 'dd-every-day-content2' style = "margin-right:10px; ">
+                  <input type="text" id="dd-every-day3" class="content-time" placeholder="04:41">
+                </div>
+                <div class="title">
+                  <input type="checkbox" id="dd-every-year" class="every">
+                  <label for="dd-every-year">Every Year<i class="fa fa-caret-down" id = "fafa" ></i></label>
+                  </div>
+                <div class="content3 hidden" id = "dd-every-checkbox2">
+                  <div>
+                  <label for="dd-every-year0" class="dd-every-year">January</label>
+                  <input type="checkbox" id ="dd-every-year0"  class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year1" class="dd-every-year">February</label>
+                  <input type="checkbox"  id = "dd-every-year1"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year2" class="dd-every-year">March</label>
+                  <input type="checkbox"  id = "dd-every-year2"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year3" class="dd-every-year">April</label>
+                  <input type="checkbox" id = "dd-every-year3" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year4" class="dd-every-year">May</label>
+                  <input type="checkbox" id = "dd-every-year4"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year5" class="dd-every-year">June</label>
+                  <input type="checkbox" id = "dd-every-year5"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year6" class="dd-every-year">July</label>
+                  <input type="checkbox"id = "dd-every-year6"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year7" class="dd-every-year">August</label>
+                  <input type="checkbox"id = "dd-every-year7"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year8" class="dd-every-year">Septemeber</label>
+                  <input type="checkbox" id = "dd-every-year8" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year9" class="dd-every-year">October</label>
+                  <input type="checkbox"id = "dd-every-year9"class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-week10" class="dd-every-year">November</label>
+                  <input type="checkbox"id = "dd-every-year10" class = "every-year-check">
+                </div>
+                <div>
+                  <label for="dd-every-year11" class="dd-every-year">December</label>
+                  <input type="checkbox" id = "dd-every-year11" class = "every-year-check">
+                </div>
+                </div>
+                <div class="content" id = 'dd-every-day-content3' style = "margin-right:10px">
+                  <input type="text" id="dd-every-day4" class="content-time"placeholder="04:41">
+                </div>
+                
+                <div class="title">
+                  <input type="checkbox" id="dd-custom-day" class="every">
+                  <label for="dd-custom-day">Custom Day<i class="fa fa-caret-down" id = "fafa" ></i></label>
+                </div>
+                <div class="content4 hidden" id = "dd-every-checkbox3">
+                  <label for="dd-custom-day1" class='dd-customdays0'>Every Day Checkbox</label>
+                  <input type="checkbox" id = 'dd-custom-day1' class = "custom1" >
+                </div>
+                <div class="content5 hidden" id = "dd-every-day-content4">
+                  <label for="dd-every-custom0" class="dd-customdays1">Monday</label>
+                  <input type="checkbox" id='dd-every-custom0' >
+                  <label for="dd-every-custom1" class="dd-customdays1">Tuesday</label>
+                  <input type="checkbox" id='dd-every-custom1' >
+                  <label for="dd-every-custom2" class="dd-customdays1">Wednesday</label>
+                  <input type="checkbox" id='dd-every-custom2' >
+                  <label for="dd-every-custom3" class="dd-customdays1">Thursday</label>
+                  <input type="checkbox" id='dd-every-custom3' >
+                  <label for="dd-every-custom4" class="dd-customdays1">Friday</label>
+                  <input type="checkbox" id='dd-every-custom4' >
+                  <label for="dd-every-custom5" class="dd-customdays1">Saturday</label>
+                  <input type="checkbox" id='dd-every-custom5' >
+                  <label for="dd-every-custom6" class="dd-customdays1">Sunday</label>
+                  <input type="checkbox" id='dd-every-custom6' >
+                </div>
+                <div class="content" id = 'dd-every-day-content5'>
+                  <input type="text" class="content-time"id="dd-every-day5" placeholder="02:41">
+                </div>
+                <div class="content6 hidden" id = "dd-every-checkbox4">
+                  <label for="dd-custom-day2" class='dd-customdays2'>Day of Month</label>
+                  <input type="checkbox" id = 'dd-custom-day2' class = "custom2" >
+                </div>
+                <div class="content7 hidden" id = 'dd-every-checkbox5'>
+                  <div>
+                  <label for= "dd-every-custom7" class="dd-every-cust"> 1</label>
+                  <input type="checkbox"  id = "dd-every-custom7">
+                </div>
+                <div>
+                  <label for= "dd-every-custom8" class="dd-every-cust"> 2</label>
+                  <input type="checkbox"  id = "dd-every-custom8" >
+                </div>
+                <div>
+                  <label for= "dd-every-custom9" class="dd-every-cust"> 3</label>
+                  <input type="checkbox" id = "dd-every-custom9">
+                </div>
+                <div>
+                  <label for= "dd-every-custom10"class="dd-every-cust"> 4</label>
+                  <input type="checkbox"  id = "dd-every-custom10">
+                </div>
+                <div>
+                  <label for= "dd-every-custom11"class="dd-every-cust"> 5</label>
+                  <input type="checkbox" id = "dd-every-custom11">
+                </div>
+                <div>
+                  <label for="dd-every-custom12" class="dd-every-cust"> 6</label>
+                  <input type="checkbox" id = "dd-every-custom12">
+                </div>
+                <div>
+                  <label for= "dd-every-custom13" class="dd-every-cust"> 7</label>
+                  <input type="checkbox" id = "dd-every-custom13">
+                </div>
+                <div>
+                  <label for="dd-every-custom14"   class="dd-every-cust"> 8</label>
+                  <input type="checkbox" id = "dd-every-custom14">
+                </div>
+                <div>
+                  <label for="dd-every-custom15" class="dd-every-cust"> 9</label>
+                  <input type="checkbox" id = "dd-every-custom15">
+                </div>
+                <div>
+                  <label for="dd-every-custom16"class="dd-every-cust"> 10</label>
+                  <input type="checkbox" id = "dd-every-custom16">
+                </div>
+                <div>
+                  <label for="dd-every-custom17"class="dd-every-cust"> 11</label>
+                  <input type="checkbox"  id = "dd-every-custom17">
+                </div>
+                <div>
+                  <label for= "dd-every-custom18" class="dd-every-cust"> 12</label>
+                  <input type="checkbox" id = "dd-every-custom18">
+                </div>
+                <div>
+                  <label for="dd-every-custom19"  class="dd-every-cust"> 13</label>
+                  <input type="checkbox" id = "dd-every-custom19" >
+                </div>
+                <div>
+                  <label for= "dd-every-custom20"class="dd-every-cust"> 14</label>
+                  <input type="checkbox"  id = "dd-every-custom20">
+                </div>
+                <div>
+                  <label for="dd-every-custom21" class="dd-every-cust"> 15</label>
+                  <input type="checkbox" id = "dd-every-custom21">
+                </div>
+                <div>
+                  <label for="dd-every-custom22" class="dd-every-cust"> 16</label>
+                  <input type="checkbox" id = "dd-every-custom22">
+                </div>
+                <div>
+                  <label for="dd-every-custom23" class="dd-every-cust"> 17</label>
+                  <input type="checkbox" id = "dd-every-custom23">
+                </div>
+                <div>
+                  <label for= "dd-every-custom24"class="dd-every-cust"> 18</label>
+                  <input type="checkbox" id = "dd-every-custom24">
+                </div>
+                <div>
+                  <label for="dd-every-custom25" class="dd-every-cust"> 19</label>
+                  <input type="checkbox" id = "dd-every-custom25">
+                </div>
+                <div>
+                  <label for="dd-every-custom26"class="dd-every-cust"> 20</label>
+                  <input type="checkbox" id = "dd-every-custom26">
+                </div>
+                <div>
+                  <label for="dd-every-custom27" class="dd-every-cust"> 21</label>
+                  <input type="checkbox" id = "dd-every-custom27">
+                </div>
+                <div>
+                  <label for="dd-every-custom28"  class="dd-every-cust"> 22</label>
+                  <input type="checkbox" id = "dd-every-custom28" >
+                </div>
+                <div>
+                  <label for="dd-every-custom29" class="dd-every-cust"> 23</label>
+                  <input type="checkbox" id = "dd-every-custom29">
+                </div>
+                <div>
+                  <label for="dd-every-custom30"class="dd-every-cust"> 24</label>
+                  <input type="checkbox" id = "dd-every-custom30">
+                </div>
+                <div>
+                  <label for="dd-every-custom31"class="dd-every-cust"> 25</label>
+                  <input type="checkbox" id = "dd-every-custom31">
+                </div>
+                <div>
+                  <label for="dd-every-custom32"class="dd-every-cust"> 26</label>
+                  <input type="checkbox" id = "dd-every-custom32">
+                </div>
+                <div>
+                  <label for= "dd-every-custom33" class="dd-every-cust"> 27</label>
+                  <input type="checkbox" id = "dd-every-custom33">
+                </div>
+                <div>
+                  <label for="dd-every-custom34" class="dd-every-cust"> 28</label>
+                  <input type="checkbox" id = "dd-every-custom34">
+                </div>
+                </div>
+                <div class="content" id = 'dd-every-day-content6'>
+                  <input type="text" class="content-time"id="dd-every-day6" placeholder="02:41">
+                </div>
+                <div class="content8 hidden" id = "dd-every-checkbox6">
+                  <label for="dd-custom-day3" class='dd-customdays3'>Day of Year</label>
+                  <input type="checkbox" id = 'dd-custom-day3' class = "custom3" >
+                </div>
+                <div id = "divfortime">
+                  <select id="my-select" class = "dd365"></select>
+                </div>
+                <!-- <div class="content" id = 'dd-every-day-content7' style="width:50%;margin-left:30px">
+                  <input type="text" class="content-time"id="dd-every-day7" placeholder="02:41">
+                </div> -->
+                <div class="content9 hidden" id = "dd-every-checkbox7">
+                  <label for="dd-custom-day4" class='dd-customdays4'>First Day of Every Month</label>
+                  <input type="checkbox" id = 'dd-custom-day4' class = "custom4" >
+                </div>
+                <select id="my-select1" class="dd365">
+                  <option value="">Monday</option>
+                  <option value="">Tuesday</option>
+                  <option value="">Wednesday</option>
+                  <option value="">Thursday</option>
+                  <option value="">Friday</option>
+                  <option value="">Saturday</option>
+                  <option value="">Sunday</option>
+                </select>
+                <!-- <div class="content" id = 'dd-every-day-content8' style="width:50%;margin-left:30px">
+                  <input type="text" class="content-time"id="dd-every-day8" placeholder="02:41">
+                </div> -->
+                <div class="content10 hidden" id = "dd-every-checkbox8">
+                  <label for="dd-custom-day5" class='dd-customdays5'>Last Day of Every Month</label>
+                  <input type="checkbox" id = 'dd-custom-day5' class = "custom5" >
+                </div>
+                <select id="my-select2" class="dd365">
+                  <option value="">Monday</option>
+                  <option value="">Tuesday</option>
+                  <option value="">Wednesday</option>
+                  <option value="">Thursday</option>
+                  <option value="">Friday</option>
+                  <option value="">Saturday</option>
+                  <option value="">Sunday</option>
+                </select>
+                <!-- <div class="content" id = 'dd-every-day-content9' style="width:50%;margin-left:30px">
+                  <input type="text" class="content-time"id="dd-every-day9" placeholder="02:41">
+                </div> -->
+                <div class="content11 hidden" id = "dd-every-checkbox9">
+                  <label for="dd-custom-day6" class='dd-customdays6'>First Day of Every Year</label>
+                  <input type="checkbox" id = 'dd-custom-day6' class = "custom6" >
+                </div>
+                <select id="my-select3" class="dd365">
+                  <option value="">Monday</option>
+                  <option value="">Tuesday</option>
+                  <option value="">Wednesday</option>
+                  <option value="">Thursday</option>
+                  <option value="">Friday</option>
+                  <option value="">Saturday</option>
+                  <option value="">Sunday</option>
+                </select>
+                <!-- <div class="content" id = 'dd-every-day-content10' style="width:50%;margin-left:30px">
+                  <input type="text" class="content-time"id="dd-every-day10" placeholder="02:41">
+                </div> -->
+                <div class="content12 hidden" id = "dd-every-checkbox10">
+                  <label for="dd-custom-day7" class='dd-customdays7'>Last Day of Every Year</label>
+                  <input type="checkbox" id = 'dd-custom-day7' class = "custom7" >
+                </div>
+                <select id="my-select4" class="dd365">
+                  <option value="">Monday</option>
+                  <option value="">Tuesday</option>
+                  <option value="">Wednesday</option>
+                  <option value="">Thursday</option>
+                  <option value="">Friday</option>
+                  <option value="">Saturday</option>
+                  <option value="">Sunday</option>
+                </select>
+                <!-- <div class="content" id = 'dd-every-day-content11' style="width:50%;margin-left:30px">
+                  <input type="text" class="content-time"id="dd-every-day11" placeholder="02:41">
+                </div> -->
+                <div class="title">
+                  <input type="checkbox" id="dd-custom-only" class="every">
+                  <label for="dd-custom-only">Custom<i class="fa fa-caret-down"  id = "fafa"></i></label>
+                </div>
+                <div class="calendarclass" id = "calendar1">
+                <input placeholder="05-11-2022" type="text" id="calendar2" />
+                </div>
+                <div class="content" id = 'dd-every-day-content12' style="width:30%;">
+                  <input type="text" class="content-time"id="dd-every-day12" placeholder="02:41">
+                </div>
+                </div>
+            </div>
+
+
           <div class="box20">
             <input id="check4" type="checkbox" />
             <label id="info1">Task is dependent on another task</label>
@@ -318,6 +771,21 @@
     max: new Date(2015,7,14)
   })
    </script>
+   <script>
+    flatpickr("#name0", {});
+ $('.datepicker').datepicker({ min: new Date(2015,3,20),
+    max: new Date(2015,7,14)
+  })
+   </script>
+   <script>
+     flatpickr("#calendar2", {});
+ $('.datepicker').datepicker({ min: new Date(2015,3,20),
+    max: new Date(2015,7,14),
+    mode: "multiple"
+    
+  })
+</script>
+
  <script>
 
 $(function(){
@@ -343,30 +811,8 @@ $(function(){
   });
 });
 
-$('.box27').hide();
-$(function(){
-  $('#check4').click(function(){
-        if($(this).is(':checked')){
-            $('.box27').show();
-           
-        } else {
-            $('.box27').hide();
-        }
-  });
-});
 
-
-$('.box26').hide();
-$(function(){
-  $('#chkddl').click(function(){
-        if($(this).is(':checked')){
-            $('.box26').show();
-           
-        } else {
-            $('.box26').hide();
-        }
-  });
-});
 </script>
+
 </body>
 </html>
