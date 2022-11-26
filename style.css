@@ -1013,6 +1013,23 @@ cursor: pointer;
     /* border-left:none; */
     background-color: white;    
 }
+
+#name7:hover
+{
+    cursor: pointer;
+}
+#type5:hover
+{
+    cursor: pointer;
+}
+#type6:hover
+{
+    cursor: pointer;
+}
+#type7:hover
+{
+    cursor: pointer;
+}
 img
 {
     width: 44px;
