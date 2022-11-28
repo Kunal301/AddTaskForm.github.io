@@ -314,7 +314,7 @@ display: inline-block!important;
     font-size: 15px ;
     border-radius: 1px;
     padding: 5px 64px 5px 22px;
-    background-color:  rgba(240, 248, 255, 0.868);
+    background-color:  rgb(236, 238, 238);
   }
 
 .customdd .customdd-content {
@@ -322,7 +322,7 @@ display: inline-block!important;
     top: 100% !important;
     border: 1px solid lightgray !important;
     padding: 5px 25px 5px 16px;
-    background-color: rgba(240, 248, 255, 0.868);
+    background-color: rgb(236, 238, 238);
     border-radius: 1px;
     
   }
@@ -1027,6 +1027,10 @@ cursor: pointer;
     cursor: pointer;
 }
 #type7:hover
+{
+    cursor: pointer;
+}
+#type9:hover
 {
     cursor: pointer;
 }
